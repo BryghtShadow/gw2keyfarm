@@ -3,8 +3,8 @@ $(function() {
 	let divmod=(x,y)=>[(x-x%y)/y,x%y];
 	let plural = (n, key) => `${n} ${~-n&&key+'s'||key}`;
 
-	let cacheMode = 'force-cache'
-	// cacheMode = 'default'
+	let cacheMode = 'default'
+	// cacheMode = 'force-cache'
 	let loadJson = (url) => fetch(url, {cache: cacheMode}).then(r=>r.json())
 
 	let tokenName = 'widgetAPIKey';
