@@ -1,0 +1,111 @@
+body {
+	background: #060606;
+	color: #eee;
+	font-family: sans-serif;
+}
+
+button {cursor: pointer;}
+
+.find-button, .reset-button, .forget-button {
+	margin-right: 0.5em;
+}
+
+input.apikey {
+	margin-right: 0.5em;
+	width: 600px;
+	font-family: monospace;
+}
+
+.tokenvalid { color: darkgreen; background-color: #D7FFD7; }
+.tokenerror { color: red; background-color: #FFD7D7; }
+
+.wikitable {
+	border-collapse: collapse;
+}
+.wikitable th, .wikitable td {
+	padding: 5px;
+}
+.wikitable thead tr {
+	background-color: #333;
+	padding: 5px;
+}
+
+.wikitable tbody tr:nth-child(even) {
+	background-color: #060606;
+}
+.wikitable tbody tr:nth-child(odd) {
+	background-color: #121212;
+}
+
+.core > div {
+	display: flex;
+	margin-bottom: .25rem;
+	align-items: center;
+}
+.core img {
+	margin-right: 10px;
+}
+
+.backstory {
+	min-width: 160px;
+}
+
+.name {display: block; font-size:20px; font-weight:400;}
+.race, .level, .profession {
+	margin-right: 0.5rem;
+}
+
+.quests .complete {
+	color: lime;
+}
+.quests .incomplete {
+	color: red;
+}
+
+.age, .next-birthday {
+	font-size: 80%;
+}
+
+.lighter .guardian  	{color: #CFEEFD}
+.lighter .revenant  	{color: #EBC9C2}
+.lighter .warrior   	{color: #FFF5BB}
+.lighter .engineer  	{color: #E8C89F}
+.lighter .ranger    	{color: #E2F6D1}
+.lighter .thief     	{color: #E6D5D7}
+.lighter .elementalist	{color: #F6D2D1}
+.lighter .mesmer    	{color: #D7B2EA}
+.lighter .necromancer	{color: #D5EDE1}
+.lighter .any       	{color: #EEEEEE}
+
+.light .guardian     	{color: #BCE8FD}
+.light .revenant     	{color: #E4AEA3}
+.light .warrior      	{color: #FFF2A4}
+.light .engineer     	{color: #E8BC84}
+.light .ranger       	{color: #D2F6BC}
+.light .thief        	{color: #DEC6C9}
+.light .elementalist 	{color: #F6BEBC}
+.light .mesmer       	{color: #D09EEA}
+.light .necromancer  	{color: #BFE6D0}
+.light .any          	{color: #DDDDDD}
+
+.medium .guardian     	{color: #72C1D9}
+.medium .revenant     	{color: #D16E5A}
+.medium .warrior      	{color: #FFD166}
+.medium .engineer     	{color: #D09C59}
+.medium .ranger       	{color: #8CDC82}
+.medium .thief        	{color: #C08F95}
+.medium .elementalist 	{color: #F68A87}
+.medium .mesmer       	{color: #B679D5}
+.medium .necromancer  	{color: #52A76F}
+.medium .any          	{color: #BBBBBB}
+
+.dark .guardian     	{color: #186885}
+.dark .revenant     	{color: #A66356}
+.dark .warrior      	{color: #CAAA2A}
+.dark .engineer     	{color: #87581D}
+.dark .ranger       	{color: #67A833}
+.dark .thief        	{color: #974550}
+.dark .elementalist 	{color: #DC423E}
+.dark .mesmer       	{color: #69278A}
+.dark .necromancer  	{color: #2C9D5D}
+.dark .any          	{color: #666666}
